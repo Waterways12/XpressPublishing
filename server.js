@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const cors = require('cors');
 const errorhandler = require('errorhandler');
-const PORT = process.env.PORT || 2000;
+const PORT = process.env.PORT || 4000;
 const apiRouter = require('./api/api');
 
 app.use(bodyParser.json());
